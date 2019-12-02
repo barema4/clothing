@@ -10,6 +10,8 @@ import CheckOutItem from '../../components/checkout-item/CheckOutItem'
 
 import './CheckOut.scss'
 
+import StripeCheckoutButton from '../../components/stripe-button/StripeButton'
+
 const CheckOutPage = ({ cartItems, total}) => (
 
     <div className='checkout-page'>
@@ -38,9 +40,11 @@ const CheckOutPage = ({ cartItems, total}) => (
       }
 
       <div className='total'>
-        <span>TOTA:${total}</span>
-      
+        TOTA:${total}
+
       </div>
+        <StripeCheckoutButton/>
+      
     
     </div>
 )
