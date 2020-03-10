@@ -1,5 +1,5 @@
 ## Project description
-An online e-commerence that sells clothes on line.
+An online e-commerce that sells clothes on line.
 One has to register with the system inorder to be able to shop from the store
 
 ### `yarn start`
